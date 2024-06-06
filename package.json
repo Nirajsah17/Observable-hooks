@@ -1,0 +1,53 @@
+{
+  "name": "oberver-hooks",
+  "version": "1.0.0",
+  "description": "Light weight Obervables hooks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "Observable",
+    "Reactive Programming",
+    "Event Emitter",
+    "Publish-Subscribe Pattern",
+    "Observer Pattern",
+    "Data Binding",
+    "State Management",
+    "Property Change Notification",
+    "Dependency Tracking",
+    "Object Proxies",
+    "Hooks",
+    "Reactive Extensions (RxJS)",
+    "Functional Reactive Programming (FRP)",
+    "Immutable Data Structures",
+    "MVVM (Model-View-ViewModel)",
+    "Data Synchronization",
+    "Real-time Updates",
+    "Event-driven Architecture",
+    "Decoupled Components",
+    "Modular Design",
+    "Reusable Code",
+    "Lightweight Implementation",
+    "Nested Objects/Arrays",
+    "Path Traversal",
+    "Dynamic Property Access",
+    "Callback Functions",
+    "Subscription Management",
+    "JavaScript Modules",
+    "ES6 Syntax",
+    "Symbols",
+    "Maps and Sets"
+  ],
+  "author": "Niraj Sah <nirajnsp5@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "engines": {
+    "node": ">= v12.16.2"
+  }
+}
