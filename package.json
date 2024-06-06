@@ -2,6 +2,13 @@
   "name": "observer-hooks",
   "version": "1.0.0",
   "description": "Light weight Obervables hooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nirajsah17/Observable-hooks.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "./src/observable.js",
   "type": "module",
   "scripts": {
