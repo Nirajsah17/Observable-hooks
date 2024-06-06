@@ -1,8 +1,8 @@
 {
-  "name": "oberver-hooks",
+  "name": "observer-hooks",
   "version": "1.0.0",
   "description": "Light weight Obervables hooks",
-  "main": "index.js",
+  "main": "./src/observable.js",
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
