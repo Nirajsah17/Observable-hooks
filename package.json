@@ -1,6 +1,6 @@
 {
   "name": "observer-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light weight Obervables hooks",
   "repository": {
     "type": "git",
