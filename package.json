@@ -7,7 +7,7 @@
     "url": "https://github.com/Nirajsah17/Observable-hooks.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "main": "./src/observable.js",
   "type": "module",
