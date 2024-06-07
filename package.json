@@ -4,7 +4,7 @@
   "description": "Light weight Obervables hooks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nirajsah17/Observable-hooks.git"
+    "url": "git+https://github.com/Nirajsah17/Observable-hooks.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
