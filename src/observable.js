@@ -21,7 +21,7 @@ function useObservable(obj) {
   }
 
   function set(path, value) {
-    const props = typeof path === 'string' ? path.split('.') : path;
+    const props = typeof path === "string" ? path.split(".") : path;
     let currObj = obj;
     const lastProp = props.pop();
 
@@ -35,11 +35,11 @@ function useObservable(obj) {
   }
 
   function get(path) {
-    const props = typeof path === 'string' ? path.split('.') : path;
+    const props = typeof path === "string" ? path.split(".") : path;
     let currObj = obj;
 
     for (const prop of props) {
-      if (!currObj || typeof currObj !== 'object') {
+      if (!currObj || typeof currObj !== "object") {
         return undefined;
       }
       currObj = currObj[prop];
@@ -59,3 +59,4 @@ function useObservable(obj) {
 }
 
 export default useObservable;
+export { useObservable };
